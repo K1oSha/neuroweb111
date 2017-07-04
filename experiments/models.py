@@ -21,9 +21,9 @@ class Experiments(models.Model):
     )
     name = models.CharField(max_length=60)
     conditions = models.TextField()
-    objectives = models.CharField(max_length=128)
+    objectives = models.TextField()
     process = models.TextField()
-    results = models.CharField(max_length=128)
+    results = models.TextField()
     date = models.DateField()
 
 
